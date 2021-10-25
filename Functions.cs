@@ -9,7 +9,7 @@ namespace SFMLTueFri
     {
         public static float Distanse(this Vector2f a, Vector2f b)
         {
-            Vector2f diff = a - b;
+            Vector2f diff = a - b; //kghujg
             return MathF.Sqrt(MathF.Pow(diff.X, 2) + MathF.Pow(diff.Y, 2));
         }
 
